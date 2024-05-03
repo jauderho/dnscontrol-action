@@ -1,7 +1,7 @@
 ---
 name: DNSControl Action Remix
 description: Deploy your DNS configuration to multiple providers
-author: Koen Rouwhorst <info@koenrouwhorst.nl>
+author: Jauder Ho <jauderho@users.noreply.github.com>
 branding:
   icon: cloud
   color: yellow
