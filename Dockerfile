@@ -5,7 +5,7 @@ LABEL "com.github.actions.color"="yellow"
 
 RUN apk update \
 	&& apk upgrade -a \
-	&& add --no-cache bash
+	&& apk add --no-cache bash
 
 RUN ["dnscontrol", "version"]
 
