@@ -12,14 +12,14 @@ inputs:
   config_file:
     description: Path to DNSControl configuration file.
     required: false
-    default: 'dnsconfig.js'
+    default: "dnsconfig.js"
   creds_file:
     description: Path to DNSControl credentials file.
     required: false
-    default: 'creds.json'
+    default: "creds.json"
 outputs:
   output:
     description: The output of the dnscontrol command that was executed.
 runs:
   using: docker
-  image: 'Dockerfile'
+  image: "Dockerfile"
