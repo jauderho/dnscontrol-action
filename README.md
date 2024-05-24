@@ -1,4 +1,4 @@
-# DNSControl Action
+# DNSControl Action Remix (forked from @koenrh)
 
 ![](https://github.com/jauderho/dnscontrol-action/workflows/build/badge.svg)
 
