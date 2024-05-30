@@ -1,4 +1,4 @@
-FROM ghcr.io/jauderho/dnscontrol:v4.11.0@sha256:462a87c57fb88d5632918a938e182a70bfc956363170bbabe016ab5dd45ef3a3
+FROM ghcr.io/jauderho/dnscontrol:v4.11.0@sha256:fae6f3d503762ca9e877e2771cdef948016b8c29977c72aef4e2afe7843cb2df
 
 LABEL "com.github.actions.icon"="cloud"
 LABEL "com.github.actions.color"="yellow"
