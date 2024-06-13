@@ -11,7 +11,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4.1.6
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
 
       - name: Dockerfilelint
         uses: docker://replicated/dockerfilelint:latest@sha256:15ce784e5847966b6d9a88cba348a9429f8b5212f6017180f10ce36b472dfe52
