@@ -1,4 +1,4 @@
-# DNSControl Action Remix (forked from @koenrh)
+# DNSControl Action Remix (forked from @jauderho)
 
 ![](https://github.com/jauderho/dnscontrol-action/workflows/build/badge.svg)
 
@@ -7,7 +7,7 @@ using [DNSControl](https://github.com/StackExchange/dnscontrol/).
 
 ## Usage
 
-These are the three relevant sub commands to use with this action.
+These are the three relevant sub commands to use with this action. This action uses an up-to-date image of dnscontrol to run the action.
 
 ### check
 
@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: DNSControl check
-        uses: koenrh/dnscontrol-action@v3
+        uses: jauderho/dnscontrol-action@v4.9.1
         with:
           args: check
 
@@ -54,7 +54,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: DNSControl preview
-        uses: koenrh/dnscontrol-action@v3
+        uses: jauderho/dnscontrol-action@v4.9.1
         id: dnscontrol_preview
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -134,7 +134,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: DNSControl push
-        uses: koenrh/dnscontrol-action@v3
+        uses: jauderho/dnscontrol-action@v4.9.1
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         with:
