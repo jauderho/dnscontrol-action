@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: DNSControl check
-        uses: jauderho/dnscontrol-action@v4.9.1
+        uses: jauderho/dnscontrol-action@v4.13.0
         with:
           args: check
 
@@ -54,7 +54,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: DNSControl preview
-        uses: jauderho/dnscontrol-action@v4.9.1
+        uses: jauderho/dnscontrol-action@v4.13.0
         id: dnscontrol_preview
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -134,7 +134,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: DNSControl push
-        uses: jauderho/dnscontrol-action@v4.9.1
+        uses: jauderho/dnscontrol-action@v4.13.0
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         with:
