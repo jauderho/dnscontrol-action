@@ -1,4 +1,4 @@
-FROM ghcr.io/jauderho/dnscontrol:v4.26.0@sha256:08e914c805b84f67a7d6c3f47e3898eee2018f8fdcb4c778b9d5f3e71b19958f
+FROM ghcr.io/jauderho/dnscontrol:v4.26.0@sha256:0366114f168649626a1494402f38cd1d1d849f3af5a707b2f0fb1c87206db3bc
 
 LABEL org.opencontainers.image.authors="Jauder Ho <jauderho@users.noreply.github.com>"
 LABEL org.opencontainers.image.url="https://github.com/jauderho/dockerfiles"
